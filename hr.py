@@ -20,7 +20,7 @@ def adding_multipleemployees():
     }
     for field_name,meta_data in employee.items():
         meta_data['value'] = input(meta_data['prompt'])
-    z
+
     print(employee)
 
     """while True:
